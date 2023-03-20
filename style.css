@@ -202,7 +202,8 @@ nav li{
 .section4{
     margin-top: 100px;
     background-color: #9792e4;
-    padding-bottom: 50px
+    padding-bottom: 50px;
+    padding-top: 30px;
 }
 .section4 h2{
     text-align: center;
@@ -298,4 +299,43 @@ nav li{
     top: 0;
     right: 0;
 
+}
+.section6{
+    margin-top: 100px;
+    background-color: #9792e4;
+    padding-top: 20px; 
+    padding-bottom: 50px;   
+}
+
+.container6{
+    margin: auto;
+    max-width: 500px;
+    color: white;
+
+}
+.opacity-parol{
+    opacity: 60%;
+}
+
+.container6>*{
+    margin-top: 30px;
+}
+
+.container6 h3{
+    font-size: 35px;
+}
+.container6 h2{
+    font-size: 80px;
+    color: #fdc15f;
+}
+
+.white-button{
+    height:70px;
+    width: 150px;
+    border-radius: 25px 25px;
+    border: solid white;
+    background-color:white;
+    color:#9792e4;
+    margin-left: 150px;
+    font-size: 20px;
 }
