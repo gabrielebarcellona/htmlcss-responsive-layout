@@ -129,6 +129,18 @@ nav img {
     color: #0e8bfd;
 }
 
+@media screen and (max-width:768px){
+
+    .container{
+        margin-inline: 20px;
+    }
+    .special-card{
+        width: calc(2*((100% - 10px ) / 3)) ;
+    }
+    
+}
+
+
 .section2{
     background-color: #9792e4;
     margin-top: 100px;
@@ -139,11 +151,13 @@ nav img {
     max-width: 700px;
     margin: auto;
 }
+
 .container-image1{
     width: 50%;
     margin-top: 100px;
     color: white;
 }
+
 .container-image1 img{
   width: 100%;
 }
@@ -172,6 +186,33 @@ nav img {
     border-radius:25px 25px ;
     margin-left: 140px;
     margin-bottom: 20px;
+}
+
+@media screen and (max-width:768px){
+    .container2{
+       display: block;
+       padding-bottom: 20px;
+    }
+
+    .container-image1 h2{
+        font-size: 30px;
+    }
+
+    .container-image1 {
+        width: 100%;
+    }
+    .container-image2{
+        width: 90%;
+        margin: 10px;
+    }
+
+    .container-image2 img{
+   }
+
+    .container-image2 >*{
+        margin-left: 170px;
+    }
+  
 }
 
 .section3{
@@ -221,6 +262,14 @@ nav img {
     font-weight: 700;
 }
 
+
+@media screen and (max-width:768px){
+    .horizontal-card{
+        margin-inline: 20px;
+    }
+}
+
+
 .section4{
     margin-top: 100px;
     background-color: #9792e4;
@@ -265,6 +314,12 @@ nav img {
 
 .container4-card>*{
     margin: 30px;
+}
+
+@media screen and (max-width:768px){
+    .container4-card{
+        width: calc((100% - 2rem)/2);
+    }
 }
 
 .section5{
@@ -320,8 +375,18 @@ nav img {
     position: absolute;
     top: 0;
     right: 0;
-
 }
+
+@media screen and (max-width:768px){
+    .container5-image{
+        overflow-y: hidden;
+    }
+    .container5-text{
+        margin-left: 20px;
+    }
+}
+
+
 .section6{
     margin-top: 100px;
     background-color: #9792e4;
