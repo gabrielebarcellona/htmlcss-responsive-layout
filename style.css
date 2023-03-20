@@ -33,6 +33,20 @@ nav li{
     background-color: white;
 }
 
+.bottone-fantasma{
+    display: none;
+}
+
+@media screen and (max-width:768px){
+    .bottone-fantasma{
+        display:inline-block ;
+    }
+    .second-ul{
+        display: none;
+    }
+
+
+}
 
 .container{
     display: flex;
@@ -54,6 +68,7 @@ nav li{
     width:  calc((100% - 2rem ) / 3) ;
     background-color: #b5ddff;
     border-radius: 20px;   
+    padding-bottom: 30px;
 }
 
 .card>*{
