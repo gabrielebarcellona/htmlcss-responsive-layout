@@ -202,6 +202,7 @@ nav li{
 .section4{
     margin-top: 100px;
     background-color: #9792e4;
+    padding-bottom: 50px
 }
 .section4 h2{
     text-align: center;
@@ -241,4 +242,60 @@ nav li{
 
 .container4-card>*{
     margin: 30px;
+}
+
+.section5{
+    margin-top: 100px;
+}
+
+.container5{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    gap: 2rem;
+}
+.container5-text{
+    width: 70%;
+}
+.container5-image{
+    width: 20%;
+    position: relative;
+}
+.container5-image img{
+    width: 200px;
+    height: 200px;
+    border-radius:100px 100px ;
+    object-fit:cover;
+}
+.container5-text h2{
+    color: #9792e4;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.container5-text p{
+    margin-top: 30px;
+    line-height: 2;
+}
+.container5-image h3{
+    font-size: 20px;
+    color: #9792e4;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.violet-button2{
+    height:30px;
+    width: 150px;
+    border-radius: 25px 25px;
+    border: solid  #9792e4;
+    background-color:#9792e4;
+    color: white;
+}
+
+.container5-image i{
+    font-size: 100px;
+    color: #9792e4;
+    position: absolute;
+    top: 0;
+    right: 0;
+
 }
