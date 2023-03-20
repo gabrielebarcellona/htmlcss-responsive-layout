@@ -39,8 +39,15 @@ nav li{
 
 @media screen and (max-width:768px){
     .bottone-fantasma{
-        display:inline-block ;
+        display:block ;
+        margin-right: 20px;
     }
+  nav{
+    justify-content: space-between;
+}
+nav img {
+    margin-left: 10px;
+}
     .second-ul{
         display: none;
     }
