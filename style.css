@@ -339,3 +339,23 @@ nav li{
     margin-left: 150px;
     font-size: 20px;
 }
+.container6 a{
+    color: white;
+}
+.section7{
+    background-color: #333333;
+    padding-top: 30px;
+}
+
+.container7{
+    margin: auto;
+    max-width: 500px;
+    color: white;
+}
+
+.container7 p{
+    margin-top: 20px;
+}
+.container7 a{
+    color: #9792e4;
+}
