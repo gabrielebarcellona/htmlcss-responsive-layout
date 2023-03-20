@@ -47,13 +47,13 @@ nav li{
 .special-card{
   width: calc(2*((100% - 2rem ) / 3) + 1rem);
   background-color: #b5ddff;
-  border-radius: 5%;
+  border-radius: 20px;
   display: flex;
 }
 .card{
     width:  calc((100% - 2rem ) / 3) ;
     background-color: #b5ddff;
-    border-radius: 10%;   
+    border-radius: 20px;   
 }
 
 .card>*{
@@ -219,7 +219,7 @@ nav li{
 }
 
 .container4-card{
-  width: calc(100% / 3 - 2rem) ;
+  width: calc((100% - 2rem)/ 3) ;
   background-color: white;
   border-radius: 25px 25px;
 }
@@ -311,6 +311,7 @@ nav li{
     margin: auto;
     max-width: 500px;
     color: white;
+    text-align: center;
 
 }
 .opacity-parol{
@@ -336,7 +337,6 @@ nav li{
     border: solid white;
     background-color:white;
     color:#9792e4;
-    margin-left: 150px;
     font-size: 20px;
 }
 .container6 a{
