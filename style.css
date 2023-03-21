@@ -153,7 +153,7 @@ nav img {
     }
 
     .special-card>*{
-        margin: auto;
+        margin:auto
     }
 }
 
@@ -290,11 +290,11 @@ nav img {
         margin-inline: 20px;
         display: block;
     }
-
     .horizontal-card-image {
-        margin-left: 130px;
+        margin: auto;
         padding-top: 30px;
     }
+    
 .horizontal-card-text{
     text-align: center;
 }
@@ -379,8 +379,9 @@ nav img {
     width: 70%;
 }
 .container5-image{
-    width: 20%;
+    width: 30%;
     position: relative;
+    
 }
 .container5-image img{
     width: 200px;
@@ -422,7 +423,7 @@ nav img {
 
 @media screen and (max-width:768px){
     .container5-image{
-        overflow-y: hidden;
+        
     }
     .container5-text{
         margin-left: 20px;
